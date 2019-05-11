@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.banner{
+    width:100%;
+    height: 60px;
+    background-color: #F24052;
+    
+}
+.banner_top{
+    top: 0;
+}
+.banner_bottom{
+	bottom: 0;
+	position: absolute;
+}
+#content{
+	width: 100%;
+	height: auto;
+	border: 1px solid grey;
+	position: relative;
+}
+#left{
+
+}
+#right{
+	width: 400px;
+	height: 400px;
+	background-color: #CAEFEF;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+form{
+	width: 350px;
+	height: auto;
+	margin: 10px auto;
+
+}
+form>fieldset{
+	padding: 10px;
+	/*position: relative;*/
+}
+form>fieldset>label{
+	width: 20%;
+	display: block;
+}
+form>fieldset>input{
+			width: 80%;
+			height: 40px;
+			line-height: 40px;
+			margin: 10px 0;
+			margin-left: : 10px;
+
+			/*position: absolute;*/
+			/*right: 10px;*/
+
+			/*float: right;*/
+}

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="css/shutter.css">
+
+</head>
+<body>
+
+<div class="shutter">
+<div class="shutter-img">
+  <a href="#" data-shutter-title="GDOU"><img src="images/shutter_1.jpg" alt="#"></a>
+  <a href="#" data-shutter-title="GDOU"><img src="images/shutter_2.jpg" alt="#"></a>
+  <a href="#" data-shutter-title="GDOU"><img src="images/shutter_3.jpg" alt="#"></a>
+   <a href="#" data-shutter-title="GDOU"><img src="images/shutter_4.jpg" alt="#"></a>
+</div>
+<ul class="shutter-btn">
+  <li class="prev"></li>
+  <li class="next"></li>
+</ul>
+<div class="shutter-desc">
+  <p>GDOU</p>
+</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/velocity.js"></script>
+<script src="js/shutter.js"></script>
+<script>
+$(function () {
+  $('.shutter').shutter({
+	shutterW: 1000, // 容器宽度
+	shutterH: 358, // 容器高度
+	isAutoPlay: true, // 是否自动播放
+	playInterval: 3000, // 自动播放时间
+	curDisplay: 3, // 当前显示页
+	fullPage: false // 是否全屏展示
+  });
+});
+</script>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff">
+<p><h2>欢迎使用学生信息管理系统</h2></p>
+</div>
+</body>
+</html>
